@@ -13,7 +13,7 @@
 
 /* burbujas */
 
-.img{
+.desc{
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -48,16 +48,16 @@
 }
 
 .burbuja:nth-child(3){
-    width: 120px;
-    height: 120px;
+    width: 80px;
+    height: 80px;
     left: 14%;
     animation-duration: 2.5s;
     animation-delay: 6s;
 }
 
 .burbuja:nth-child(4){
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     left: 23%;
     animation-duration: 3s;
     animation-delay: 3s;
@@ -80,16 +80,16 @@
 }
 
 .burbuja:nth-child(7){
-    width: 120px;
-    height: 120px;
+    width: 80px;
+    height: 80px;
     left: 45%;
     animation-duration: 3s;
     animation-delay: 5.5s;
 }
 
 .burbuja:nth-child(8){
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     left: 56%;
     animation-duration: 4s;
     animation-delay: 5s;
@@ -112,16 +112,16 @@
 }
 
 .burbuja:nth-child(11){
-    width: 120px;
-    height: 120px;
+    width: 80px;
+    height: 80px;
     left: 78%;
     animation-duration: 2.5s;
     animation-delay: 4s;
 }
 
 .burbuja:nth-child(12){
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     left: 90%;
     animation-duration: 3s;
     animation-delay: 4s;
