@@ -11,7 +11,7 @@
     height: 100vh;
 }
 
-/* burbujas */
+/* descuentos */
 
 .desc{
     width: 100%;
@@ -19,7 +19,7 @@
     object-fit: cover;
 }
 
-.burbuja{
+.descuento{
     border-radius: 50%;
     background: transparent;
     opacity: 0;
@@ -28,10 +28,10 @@
     top: -150;
     
     
-    animation: burbujas 3s linear infinite ;
+    animation: burbuja 3s linear infinite ;
 }
 
-.burbuja:first-child{
+.descuento:first-child{
     width: 80px;
     height: 80px;
     left: .5%;
@@ -39,7 +39,7 @@
     animation-delay: 3s;
 }
 
-.burbuja:nth-child(2){
+.descuento:nth-child(2){
     width: 80px;
     height: 80px;
     left: 7%;
@@ -47,7 +47,7 @@
     animation-delay: 3.5s;
 }
 
-.burbuja:nth-child(3){
+.descuento:nth-child(3){
     width: 80px;
     height: 80px;
     left: 14%;
@@ -55,7 +55,7 @@
     animation-delay: 6s;
 }
 
-.burbuja:nth-child(4){
+.descuento:nth-child(4){
     width: 80px;
     height: 80px;
     left: 23%;
@@ -63,7 +63,7 @@
     animation-delay: 3s;
 }
 
-.burbuja:nth-child(5){
+.descuento:nth-child(5){
     width: 80px;
     height: 80px;
     left: 32%;
@@ -71,7 +71,7 @@
     animation-delay: 1s;
 }
 
-.burbuja:nth-child(6){
+.descuento:nth-child(6){
     width: 80px;
     height: 80px;
     left: 39%;
@@ -79,7 +79,7 @@
     animation-delay: 6s;
 }
 
-.burbuja:nth-child(7){
+.descuento:nth-child(7){
     width: 80px;
     height: 80px;
     left: 45%;
@@ -87,7 +87,7 @@
     animation-delay: 5.5s;
 }
 
-.burbuja:nth-child(8){
+.descuento:nth-child(8){
     width: 80px;
     height: 80px;
     left: 56%;
@@ -95,7 +95,7 @@
     animation-delay: 5s;
 }
 
-.burbuja:nth-child(9){
+.descuento:nth-child(9){
     width: 80px;
     height: 80px;
     left: 65%;
@@ -103,7 +103,7 @@
     animation-delay: 2.5s;
 }
 
-.burbuja:nth-child(10){
+.descuento:nth-child(10){
     width: 80px;
     height: 80px;
     left: 70%;
@@ -111,7 +111,7 @@
     animation-delay: 2s;
 }
 
-.burbuja:nth-child(11){
+.descuento:nth-child(11){
     width: 80px;
     height: 80px;
     left: 78%;
@@ -119,7 +119,7 @@
     animation-delay: 4s;
 }
 
-.burbuja:nth-child(12){
+.descuento:nth-child(12){
     width: 80px;
     height: 80px;
     left: 90%;
@@ -128,7 +128,7 @@
 }
 
 
-@keyframes burbujas{
+@keyframes burbuja{
     0%{
         top: 0;
         opacity: 0;
